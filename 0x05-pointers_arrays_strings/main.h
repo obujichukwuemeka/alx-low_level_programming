@@ -15,5 +15,5 @@ char *_strcpy(char *dest, char *src);
 
 
 
-#endif // MAIN_H_INCLUDED
+#endif 
 

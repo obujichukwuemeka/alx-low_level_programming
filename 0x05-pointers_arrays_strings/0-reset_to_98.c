@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * reset_to_98 - set value to 98
+ * @n: pointer to n
+ * Return: void
  */
 
 void reset_to_98(int *n)

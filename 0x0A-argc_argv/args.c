@@ -3,14 +3,9 @@
 
 int main(int argc, char* argv[])
 {
-    int i;
-    printf("argc = %d\n", argc);
-    printf("Lets see what is inside of argv[]\n");
-
-    for(i = 0; i < argc; i++)
-    {
-        printf("argv[%d] = %s\n", i, argv[i]);
-    }
+	int i;
+	i = argc - 1;
+    	printf("%d\n", i);
     return 0;
 }
 

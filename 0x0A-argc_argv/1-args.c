@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
  * main - A program that prints the number of arguements you passed into it
  * @argc: An argument counter
@@ -9,10 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	i = argc - 1;
-	printf("%d\n", i);
-
-return (0);
+	if (argv[0])
+		printf("%d\n", argc - 1);
+	return (0);
 }
